@@ -44,11 +44,11 @@ public class OpenWeatherMapClient {
     private URI buildTomorrowsWeatherRequest(String city) {
         return UriComponentsBuilder
                 .fromHttpUrl(openWeatherApiEndpoint + "/forecast/daily" + "?q=" +
-                            city +
-                            ",pl" +
-                            "&cnt=1" +
-                            "&APPID=" + openWeatherApiId +
-                            "&units=metric")
+                        city + //city from coutry as below
+                        ",pl" + //country fixed set - Poland
+                        "&cnt=1" + //only one day of forecast
+                        "&APPID=" + openWeatherApiId +
+                        "&units=metric")
                 .build()
                 .encode()
                 .toUri();
