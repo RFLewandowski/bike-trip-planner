@@ -1,7 +1,7 @@
-package gov.newworldorder.biketripplanner.controller;
+package gov.nwo.biketripplanner.controller;
 
-import gov.newworldorder.biketripplanner.environmentaldata.openweathermap.WeatherForecast;
-import gov.newworldorder.biketripplanner.service.WeatherService;
+import gov.nwo.biketripplanner.envdata.openweathermap.WeatherForecast;
+import gov.nwo.biketripplanner.service.WeatherService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

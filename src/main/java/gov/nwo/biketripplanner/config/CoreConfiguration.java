@@ -1,4 +1,4 @@
-package gov.newworldorder.biketripplanner.config;
+package gov.nwo.biketripplanner.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

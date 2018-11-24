@@ -1,7 +1,7 @@
-package gov.newworldorder.biketripplanner.environmentaldata.openweathermap.client;
+package gov.nwo.biketripplanner.envdata.openweathermap.client;
 
-import gov.newworldorder.biketripplanner.environmentaldata.openweathermap.OpenWeatherResponse;
-import gov.newworldorder.biketripplanner.environmentaldata.openweathermap.WeatherForecast;
+import gov.nwo.biketripplanner.envdata.openweathermap.OpenWeatherResponse;
+import gov.nwo.biketripplanner.envdata.openweathermap.WeatherForecast;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;

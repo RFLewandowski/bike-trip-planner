@@ -1,7 +1,7 @@
-package gov.newworldorder.biketripplanner.service;
+package gov.nwo.biketripplanner.service;
 
-import gov.newworldorder.biketripplanner.environmentaldata.openweathermap.WeatherForecast;
-import gov.newworldorder.biketripplanner.environmentaldata.openweathermap.client.OpenWeatherMapClient;
+import gov.nwo.biketripplanner.envdata.openweathermap.WeatherForecast;
+import gov.nwo.biketripplanner.envdata.openweathermap.client.OpenWeatherMapClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

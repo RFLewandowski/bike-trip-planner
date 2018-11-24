@@ -1,4 +1,4 @@
-package gov.newworldorder.biketripplanner;
+package gov.nwo.biketripplanner;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
