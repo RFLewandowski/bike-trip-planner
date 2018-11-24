@@ -19,10 +19,8 @@ public class WeatherController {
         this.weatherService = weatherService;
     }
 
-    @GetMapping("{city}")
+    @GetMapping("/{city}")
     public WeatherForecast getTomorrowsWeatherForecast(@PathVariable("city") String city) {
         return weatherService.getTomorrowWeather(city);
     }
-
-
 }
