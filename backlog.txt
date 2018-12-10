@@ -1,0 +1,31 @@
+-zczytywanie pogody - service
+-zczytywanie jakości powietrza - service
+-zczytywanie kierunku i prędkości wiatru
+-prosty algorytm kiedy dobra pogoda na rower
+-wystawienie endpointów
+-frontend byle jaki
+-wystawienie na serwer(heroku) i dostęp online
+-wysyłanie maili z przypomnieniami
+
+-dodanie użtkowników (trzeba obczaić, czy lepiej google account, czy w wewnętrznej db, czy logowanie z google account?)
+-przechowywanie danych w bazie danych
+-customizowaly algorytm - per użytkownik kiedy dobra pogoda na rower
+-ustawienie maili per użytkownik
+
+-historia przejażdżek (mail z pytaniem, czy byłeś (guzik) i jeśli tak to zapisywanie do DB przejażdźki)
+-algorytm uwzględniający poprzednie przejażdźki
+
+-frontend w angularze
+-swagger
+-actuator
+
+-predefiniowane trasy - google maps
+-planowanie trasy na podstawie google maps
+-integracja z facebook
+-zapraszanie do wspólnych przejazdów (facebook?/mail?)
+-wspólne planowanie przejazdów
+-wysyłanie sms z przypomnieniem
+-lepsze przystosowanie do biegania/spacerów
+-integracja moduł z parametrami ciała itp
+-moduł treninigów
+-wrzucić na docker image

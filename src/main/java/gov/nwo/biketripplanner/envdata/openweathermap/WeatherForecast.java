@@ -9,7 +9,7 @@ import lombok.Getter;
 @AllArgsConstructor
 @Getter
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class WeatherForecast {
+public class WeatherForecast { //TODO rwork all as in zip but keep this name of class as it is named List in json
     @JsonProperty("dt")
     private long timestampOfForcast;
 
