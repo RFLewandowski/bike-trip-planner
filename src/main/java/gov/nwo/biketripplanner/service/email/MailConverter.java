@@ -1,4 +1,4 @@
-package gov.nwo.biketripplanner.domain;
+package gov.nwo.biketripplanner.service.email;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.mail.javamail.MimeMessageHelper;

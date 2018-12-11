@@ -1,8 +1,8 @@
-package gov.nwo.biketripplanner.service;
+package gov.nwo.biketripplanner.service.email;
 
 
-import gov.nwo.biketripplanner.domain.Mail;
-import gov.nwo.biketripplanner.domain.MailConverter;
+import gov.nwo.biketripplanner.service.email.Mail;
+import gov.nwo.biketripplanner.service.email.MailConverter;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mail.MailException;

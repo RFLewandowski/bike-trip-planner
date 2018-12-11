@@ -1,4 +1,4 @@
-package gov.nwo.biketripplanner.domain;
+package gov.nwo.biketripplanner.service.email;
 
 public class DummyMailToSend extends Mail {
     public DummyMailToSend(String to, String cc, String subject, String message) {

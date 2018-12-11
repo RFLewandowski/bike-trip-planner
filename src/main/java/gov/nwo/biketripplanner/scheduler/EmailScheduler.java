@@ -1,9 +1,9 @@
 package gov.nwo.biketripplanner.scheduler;
 
 import gov.nwo.biketripplanner.config.AdminConfig;
-import gov.nwo.biketripplanner.domain.DummyMailToSend;
-import gov.nwo.biketripplanner.domain.Mail;
-import gov.nwo.biketripplanner.service.SimpleEmailService;
+import gov.nwo.biketripplanner.service.email.DummyMailToSend;
+import gov.nwo.biketripplanner.service.email.Mail;
+import gov.nwo.biketripplanner.service.email.SimpleEmailService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;

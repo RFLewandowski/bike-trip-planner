@@ -1,4 +1,4 @@
-package gov.nwo.biketripplanner.domain;
+package gov.nwo.biketripplanner.service.email;
 
 import lombok.Getter;
 
