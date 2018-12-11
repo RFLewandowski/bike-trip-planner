@@ -1,0 +1,15 @@
+open weather request:
+http://api.openweathermap.org/data/2.5/forecast/daily?q=Bydgoszcz,pl&cnt=1&APPID=969e0cb28ff368883c37bf5abed61d59&units=metric
+
+open weather response:
+{"city":{"id":3102014,"name":"Bydgoszcz","coord":{"lon":18.0003,"lat":53.122},"country":"PL","population":366452},"cod":"200","message":3.2107894,"cnt":1,"list":[{"dt":1516701600,"temp":{"day":-6,"min":-7.66,"max":-6,"night":-7.66,"eve":-6,"morn":-6},"pressure":1024.86,"humidity":84,"weather":[{"id":800,"main":"Clear","description":"sky is clear","icon":"01d"}],"speed":3.75,"deg":155,"clouds":0}]}
+
+
+
+
+---------------
+ekozefir:
+http://cloud.ekozefir.pl:8080/thing/public
+
+--------------
+na końcu trzeba będzie dodać konfigurowanie suwakami jak bardzo przeszkadza ci wiatr, temperatura, jak często maile (czy tylko w weekendy)
