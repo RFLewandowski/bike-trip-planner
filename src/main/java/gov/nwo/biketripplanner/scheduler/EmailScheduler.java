@@ -21,7 +21,7 @@ public class EmailScheduler {
     }
 
     //@Scheduled(cron = "0 0 3 * * *") //at 3 o'clock every day
-    @Scheduled(fixedDelay = 20000) //every 2s
+    @Scheduled(fixedDelay = 20000) //every 20s
     public void sendInformationEmail() {
         Mail dummyMail = new DummyMailToSend(
                 adminConfig.getAdminMail(),
