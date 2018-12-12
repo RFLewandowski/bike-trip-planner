@@ -6,6 +6,7 @@
 -frontend byle jaki
 -wystawienie na serwer(heroku) i dostęp online
 -wysyłanie maili z przypomnieniami
+    -simple mail service added
 
 -dodanie użtkowników (trzeba obczaić, czy lepiej google account, czy w wewnętrznej db, czy logowanie z google account?)
 -przechowywanie danych w bazie danych

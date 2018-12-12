@@ -1,5 +1,6 @@
 .gradle
 /build/
+/out/
 !gradle/wrapper/gradle-wrapper.jar
 .class
 #it will be much simpler to hide some data by ignoring properties
