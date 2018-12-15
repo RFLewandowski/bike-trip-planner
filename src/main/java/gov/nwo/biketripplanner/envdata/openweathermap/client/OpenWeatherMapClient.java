@@ -1,7 +1,7 @@
 package gov.nwo.biketripplanner.envdata.openweathermap.client;
 
+import gov.nwo.biketripplanner.envdata.openweathermap.Forecast;
 import gov.nwo.biketripplanner.envdata.openweathermap.OpenWeatherResponse;
-import gov.nwo.biketripplanner.envdata.openweathermap.WeatherForecast;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -29,12 +29,12 @@ public class OpenWeatherMapClient {
         this.restTemplate = restTemplate;
     }
 
-    public WeatherForecast getTomorrowsWeather(String city) {
+    public Forecast getTomorrowsWeather(String city) {
         URI requestUrl = buildTomorrowsWeatherRequest(city);
         try {
             OpenWeatherResponse openWeatherResponse = restTemplate
                     .getForObject(requestUrl, OpenWeatherResponse.class);
-            return openWeatherResponse.getWeatherForecast()[0];
+            return openWeatherResponse.getForecast().get(0);//TODO refactor to optional
         } catch (RestClientException | NullPointerException e) {
             log.error(e.getMessage(), e);
             return null;

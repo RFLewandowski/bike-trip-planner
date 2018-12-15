@@ -1,6 +1,6 @@
 package gov.nwo.biketripplanner.service;
 
-import gov.nwo.biketripplanner.envdata.openweathermap.WeatherForecast;
+import gov.nwo.biketripplanner.envdata.openweathermap.Forecast;
 import gov.nwo.biketripplanner.envdata.openweathermap.client.OpenWeatherMapClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -15,7 +15,7 @@ public class WeatherService {
         this.openWeatherMapClient = openWeatherMapClient;
     }
 
-    public WeatherForecast getTomorrowWeather(String city) {
+    public Forecast getTomorrowWeather(String city) {
         return openWeatherMapClient.getTomorrowsWeather(city);
     }
 

@@ -1,6 +1,6 @@
 package gov.nwo.biketripplanner.controller;
 
-import gov.nwo.biketripplanner.envdata.openweathermap.WeatherForecast;
+import gov.nwo.biketripplanner.envdata.openweathermap.Forecast;
 import gov.nwo.biketripplanner.service.WeatherService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -20,7 +20,7 @@ public class WeatherController {
     }
 
     @GetMapping("/{city}")
-    public WeatherForecast getTomorrowsWeatherForecast(@PathVariable("city") String city) {
+    public Forecast getTomorrowsWeatherForecast(@PathVariable("city") String city) {
         return weatherService.getTomorrowWeather(city);
     }
 }

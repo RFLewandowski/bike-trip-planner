@@ -1,4 +1,4 @@
--zczytywanie pogody - service
+-zczytywanie pogody - service - przebudować zczytywanie danych na podstawie: OpenWeatherResponse-sources.zip
 -zczytywanie jakości powietrza - service
 -zczytywanie kierunku i prędkości wiatru
 -prosty algorytm kiedy dobra pogoda na rower

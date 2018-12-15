@@ -15,19 +15,22 @@ import lombok.NoArgsConstructor;
 @JsonIgnoreProperties(ignoreUnknown = true)
 @JsonPropertyOrder({
     "id",
-    "main",
-    "description",
-    "icon"
+    "name",
+    "coord",
+    "country",
+    "population"
 })
-public class Weather {
+public class City {
 
     @JsonProperty("id")
     public Integer id;
-    @JsonProperty("main")
-    public String main;
-    @JsonProperty("description")
-    public String description;
-    @JsonProperty("icon")
-    public String icon;
+    @JsonProperty("name")
+    public String name;
+    @JsonProperty("coord")
+    public Coord coord;
+    @JsonProperty("country")
+    public String country;
+    @JsonProperty("population")
+    public Integer population;
 
 }

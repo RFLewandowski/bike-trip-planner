@@ -14,20 +14,26 @@ import lombok.NoArgsConstructor;
 @Data
 @JsonIgnoreProperties(ignoreUnknown = true)
 @JsonPropertyOrder({
-    "id",
-    "main",
-    "description",
-    "icon"
+    "day",
+    "min",
+    "max",
+    "night",
+    "eve",
+    "morn"
 })
-public class Weather {
+public class Temp {
 
-    @JsonProperty("id")
-    public Integer id;
-    @JsonProperty("main")
-    public String main;
-    @JsonProperty("description")
-    public String description;
-    @JsonProperty("icon")
-    public String icon;
+    @JsonProperty("day")
+    public Integer day;
+    @JsonProperty("min")
+    public Integer min;
+    @JsonProperty("max")
+    public Integer max;
+    @JsonProperty("night")
+    public Integer night;
+    @JsonProperty("eve")
+    public Integer eve;
+    @JsonProperty("morn")
+    public Integer morn;
 
 }
